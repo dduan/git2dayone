@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>local.git2dayone</string>
+    <key>OnDemand</key>
+    <true/>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>UserName</key>
+    <string>USERNAME</string>
+    <key>Program</key>
+    <string>PATH/TO/day_one_git_messages.sh</string>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>06</integer>
+        <key>Minute</key>
+        <integer>00</integer>
+    </dict>
+</dict>
+</plist>
