@@ -1,7 +1,10 @@
 #!/usr/bin/env sh
-repos='/path/to/repo ...'
-user='git username'
+repos=`printf "%s\n" ~/projects/*/`
+user=''
+journal=''
+tags=''
 
+formatString="### %s%n%n\`\`\`%n%H%nAuthor: %an (%ae)%nCommitter: %cn (%ce)%nDate: %aD%n%n%b%n\`\`\`%n%n"
 journal=""
 tags=""
 date=`date +%Y-%m-%d`
